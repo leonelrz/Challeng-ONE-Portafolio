@@ -1,0 +1,52 @@
+.formcontato__contacto{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto auto;
+}
+
+
+.formcontato__text{
+    text-align: center;
+}
+
+.formcontato__img{
+    margin-top: 5rem;
+    height: 500px;
+    width: 500px;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formcontato__input, .formcontato__textarea, .formcontato__botao{
+    margin: 1rem;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.formcontato__botao{
+    width: 50%;
+    padding: 1rem;
+    color: #fbfbfb;
+    background: #2a7ae4;
+    box-shadow: 0 2px 4px 2px #00000010;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 768px){
+    .formcontato__img{
+        display: none;
+    }
+    .formcontato__text{
+        width: 80%;
+        padding-right: 1rem;
+    }
+
+}

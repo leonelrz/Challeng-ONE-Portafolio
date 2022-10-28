@@ -1,0 +1,49 @@
+.menu{
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 55px;
+}
+
+.menu__title{
+    font-family: 'Fasthand', cursive;
+    font-size: 1.75rem;
+}
+
+.menu__header{
+    display: flex;
+}
+
+.menu__list{
+    display: flex;
+}
+
+.menu__list__item{
+    margin-right: 1.25rem;
+}
+
+.menu__list__item:hover{
+    text-decoration: underline;
+}
+
+.menu__list__item__contato{
+    color: #333333;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 0){
+    
+}
+
+@media screen and (max-width: 768px){
+    .menu__list__item{
+        display: none;
+    }
+    .menu__list__item__contato{
+        display: flex;
+    }
+}

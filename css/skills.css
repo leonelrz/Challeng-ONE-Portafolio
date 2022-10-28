@@ -1,0 +1,19 @@
+.skills{
+    text-align: center;
+}
+
+.skills__line{
+    display: flex;
+    justify-content: center;
+}
+
+.skills__img{
+    width: 50px;
+    height: 60px;
+}
+
+@media screen and (max-width: 768px){
+    .skills__line{
+        flex-wrap: wrap;
+    }
+}

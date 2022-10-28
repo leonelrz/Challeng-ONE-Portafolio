@@ -1,0 +1,24 @@
+.academic{
+    text-align: center;
+}
+.academic__courses{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.skills{
+    text-align: center;
+}
+
+.skills__line{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+    .academic__courses{
+        flex-wrap: wrap;
+    }
+}

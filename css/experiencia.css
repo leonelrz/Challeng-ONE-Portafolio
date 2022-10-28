@@ -1,0 +1,46 @@
+.experience{
+    padding: 2rem;
+}
+
+.experience__section__title{
+    text-align: center;
+}
+
+.experience__box{
+    display: flex;
+    padding: 2rem;
+}
+
+.experience__img{
+    width: 60%;
+    border-radius: 10%;
+}
+
+.experience__info{
+    text-align: center;
+
+    margin: auto auto;
+}
+
+.boton__proyecto{
+    width: 100px;
+    padding: 1rem;
+    color: #fbfbfb;
+    background: #2a7ae4;
+    box-shadow: 0 2px 4px 2px #00000010;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px){
+    .experience__box{
+        display: block;
+        text-align: center;
+    }
+    .experience__img{
+        width: 90%;
+
+    }
+}
