@@ -11,7 +11,7 @@
     margin: 1rem auto;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (min-width: 400px){
     .about__paragraph{
         width: 80%;
     }
