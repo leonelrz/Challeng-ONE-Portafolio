@@ -1,7 +1,7 @@
 ------------
 
 
-# Challenge 02 - Juego de Ahorcado
+# Challenge 03 - Portafolio de Proyectos
 
 ![principal](https://github.com/leonelrz/Challeng-ONE-Portafolio/assets/112590041/0c490430-bbe0-4c65-8dee-148c9b8af647)
 
